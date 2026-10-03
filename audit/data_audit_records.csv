@@ -1,0 +1,867 @@
+row,tracking_number,status,raw_status,delivery_attempts,issues,categories,record_class,mvp_outcome,mvp_outcome_detail,risk_incorrect_allow,risk_over_block,needs_human_review,needs_customer_input
+2,EX400181AE,In Transit,Transit,0,STATUS_FORMAT_VARIANT|NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+3,EX401452AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+4,EX400238AE,Failed Delivery,Failed Delivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+5,EX401665AE,In Transit,IN TRANSIT,0,STATUS_FORMAT_VARIANT|NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+6,EX401184AE,Failed Delivery,Failed Delivery,2,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+7,EX400319AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+8,EX401166AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+9,EX400326AE,Delivered,Delivered,1,DATE_AMBIGUOUS,Invalid data,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+10,EX400745AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+11,EX401260AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+12,EX400027AE,In Transit,Transit,0,STATUS_FORMAT_VARIANT|NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+13,EX401277AE,Delivered,delivered_ok,3,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+14,EX401713AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+15,EX400948AE,Delivered,delivered,3,STATUS_FORMAT_VARIANT|DATE_AMBIGUOUS,Invalid data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+16,EX401276AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+17,EX400711AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+18,EX401699AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+19,EX400879AE,Scheduled for Redelivery,Scheduled for Redelivery,0,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX|ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|REDELIVERY_WITHOUT_ATTEMPT,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+20,EX401255AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+21,EX401413AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+22,EX401958AE,Returned to Sender,Returned to Sender,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+23,EX401835AE,Delivered,delivered,3,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+24,EX400813AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+25,EX401507AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+26,EX401625AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|NAME_WHITESPACE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+27,EX400815AE,Scheduled for Redelivery,Scheduled for Redelivery,2,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_AMBIGUOUS,Invalid data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+28,EX401228AE,Delivered,DELIVERED,2,STATUS_FORMAT_VARIANT|DATE_AMBIGUOUS,Invalid data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_LAST_ATTEMPT_DATE,False,False,True,False
+29,EX400322AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+30,EX401175AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+31,EX400844AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+32,EX400630AE,Delivered,Delivered,2,DATE_AMBIGUOUS,Invalid data,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+33,EX400414AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+34,EX400158AE,Returned to Sender,Returned to Sender,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+35,EX401435AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DELIVERED_MISSING_FIELD|COD_FORMAT,Missing data|Normal / valid|Unknown / needs review,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+36,EX400221AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+37,EX401017AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+38,EX400539AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+39,EX400511AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+40,EX401112AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+41,EX401932AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+42,EX401159AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+43,EX401729AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+44,TEST1001,TEST,TEST,0,TEST_RECORD,Invalid data,Has issues,BLOCKED_TEST_RECORD,TEST_RECORD,False,False,True,False
+45,EX401770AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+46,EX400822AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+47,EX401821AE,Delivered,Delivered ,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+48,EX401624AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE|COD_FORMAT,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+49,EX400819AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+50,EX401521AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+51,EX401295AE,Delivered,delivered_ok,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+52,EX400774AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+53,EX400638AE,Scheduled for Redelivery,Scheduled for Redelivery,1,REGISTERED_PHONE_NON_MVP_PREFIX|COD_FORMAT,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+54,EX401541AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+55,EX401981AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+56,EX401542AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+57,EX401110AE,Delivered,Delivered,1,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+58,EX400382AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+59,EX401148AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+60,EX400768AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX|NAME_WHITESPACE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+61,EX400476AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+62,EX401048AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+63,EX401162AE,Failed Delivery,Failed,3,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+64,EX401856AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+65,EX401430AE,Out for Delivery,Out for Delivery,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+66,EX400084AE,Returned to Sender,Returned to Sender,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+67,EX400964AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+68,EX400171AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+69,EX400078AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+70,EX401315AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+71,EX401472AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+72,EX400397AE,Scheduled for Redelivery,Scheduled for Redelivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+73,EX400977AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+74,EX400371AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+75,EX400313AE,Scheduled for Redelivery,Scheduled for Redelivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+76,EX400064AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+77,EX400645AE,Out for Delivery,Out for Delivery,1,MISSING_PHONE|DATE_NORMALIZED|DATE_AMBIGUOUS,Invalid data|Missing data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_LAST_ATTEMPT_DATE,False,False,True,False
+78,EX401021AE,Scheduled for Redelivery,Scheduled for Redelivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+79,EX401587AE,Out for Delivery,Out for Delivery,2,MISSING_ADDRESS,Missing data,Has issues,INTERNAL_REVIEW,OUT_FOR_DELIVERY_MISSING_ADDRESS,False,False,True,False
+80,EX400792AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+81,TEST1007,TEST,TEST,0,TEST_RECORD,Invalid data,Has issues,BLOCKED_TEST_RECORD,TEST_RECORD,False,False,True,False
+82,EX401907AE,Delivered,Delivered,2,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+83,EX400747AE,Delivered,DELIVERED,3,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+84,EX400610AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+85,EX401846AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+86,EX401309AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+87,EX400402AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE|INVALID_WEIGHT,Invalid data|Normal / valid|Unknown / needs review,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+88,EX400190AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+89,EX401122AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+90,EX400093AE,Failed Delivery,FAILED_DELIVERY,1,STATUS_FORMAT_VARIANT|COD_FORMAT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+91,EX400033AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE|SENSITIVE_NOTE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+92,EX401548AE,Scheduled for Redelivery,Scheduled for Redelivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+93,EX400832AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+94,EX400653AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+95,EX400219AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+96,EX400823AE,In Transit,IN TRANSIT,0,STATUS_FORMAT_VARIANT|NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+97,EX400101AE,Failed Delivery,Failed Delivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+98,EX401077AE,Returned to Sender,Returned to Sender,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+99,EX401332AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+100,EX400258AE,In Transit,In Transit,0,MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+101,EX400606AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+102,EX401861AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+103,EX401347AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+104,EX400646AE,Failed Delivery,Failed Delivery,2,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+105,EX400232AE,Out for Delivery,Out for Delivery,2,MISSING_PHONE,Missing data,Has issues,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+106,EX400781AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+107,EX400914AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+108,EX400788AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+109,EX401479AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+110,EX400843AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+111,EX401655AE,Delivered,Delivered,1,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+112,EX401133AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+113,EX400097AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+114,EX401115AE,Scheduled for Redelivery,Re-delivery scheduled,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+115,EX401717AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+116,EX401775AE,Returned to Sender,Returned to Sender,1,MISSING_ADDRESS|DATE_SEQUENCE,Contradictory data|Missing data,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+117,EX400951AE,Delivered,delivered,3,STATUS_FORMAT_VARIANT|DUPLICATE_CONFLICTING,Contradictory data|Normal / valid,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+118,EX400209AE,Failed Delivery,Failed Delivery,3,DATE_NORMALIZED,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+119,EX400334AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+120,EX401367AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+121,EX402019AE,Scheduled for Redelivery,Scheduled for Redelivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+122,EX401235AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE|NAME_WHITESPACE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+123,EX400589AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+124,EX401314AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+125,EX401466AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+126,EX400297AE,Returned to Sender,Returned to Sender,2,MISSING_PHONE,Missing data,Has issues,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+127,EX400249AE,Delivered,Delivered ,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+128,EX400968AE,Failed Delivery,Failed,3,STATUS_FORMAT_VARIANT|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+129,EX400976AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+130,EX400300AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+131,EX401030AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+132,EX401232AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+133,EX401514AE,Out for Delivery,Out for Delivery,3,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+134,EX400954AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+135,EX401382AE,Failed Delivery,Failed Delivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+136,EX401409AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|COD_FORMAT,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+137,EX401945AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+138,EX401291AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+139,EX401681AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+140,EX401274AE,Delivered,delivered_ok,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|NAME_WHITESPACE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+141,EX401608AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+142,TEST1005,TEST,TEST,0,TEST_RECORD,Invalid data,Has issues,BLOCKED_TEST_RECORD,TEST_RECORD,False,False,True,False
+143,EX400131AE,Out for Delivery,Out for Delivery,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+144,EX401282AE,Scheduled for Redelivery,Scheduled for Redelivery,0,DUPLICATE_CONFLICTING|ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|REDELIVERY_WITHOUT_ATTEMPT|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+145,EX400008AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+146,EX402005AE,Delivered,delivered_ok,3,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+147,EX401732AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+148,EX401312AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+149,EX400795AE,Scheduled for Redelivery,Scheduled for Redelivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+150,EX401710AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+151,EX400860AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_AMBIGUOUS,Invalid data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_LAST_ATTEMPT_DATE,False,False,True,False
+152,EX400886AE,Out for Delivery,Out for Delivery,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+153,EX400269AE,Delivered,Delivered ,3,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+154,EX401152AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+155,EX401902AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|INVALID_WEIGHT,Invalid data|Unknown / needs review,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+156,EX400470AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+157,EX400352AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+158,EX401828AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+159,EX401222AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+160,EX400838AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+161,EX400688AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+162,EX401807AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+163,EX401465AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+164,EX401722AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+165,EX401782AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+166,EX400971AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+167,EX401007AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+168,EX400446AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+169,EX400552AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+170,EX401450AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+171,EX400526AE,Failed Delivery,Failed Delivery,1,DUPLICATE_CONFLICTING|DATE_SEQUENCE,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+172,EX401815AE,Delivered,delivered_ok,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+173,EX400215AE,Returned to Sender,Returned to Sender,1,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+174,EX400666AE,Delivered,Delivered,3,NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+175,EX401055AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD|DATE_NORMALIZED,Missing data|Normal / valid,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+176,EX401241AE,Returned to Sender,Returned to Sender,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+177,EX400850AE,Scheduled for Redelivery,Scheduled for Redelivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+178,EX400394AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+179,EX402015AE,Failed Delivery,FAILED_DELIVERY,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+180,EX400495AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+181,EX401689AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+182,EX400115AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+183,EX401804AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+184,EX401760AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+185,EX401800AE,Returned to Sender,Returned to Sender,3,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+186,EX400993AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+187,EX400920AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+188,EX400134AE,Returned to Sender,Returned to Sender,2,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+189,EX401431AE,Out for Delivery,Out for Delivery,3,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+190,EX400259AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+191,EX401339AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+192,EX401820AE,Returned to Sender,Returned to Sender,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+193,EX401851AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+194,EX401246AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+195,EX401622AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+196,EX400143AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+197,EX401992AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+198,EX400282AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+199,EX401606AE,Failed Delivery,FAILED_DELIVERY,2,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+200,EX400558AE,Delivered,Delivered,3,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+201,EX401189AE,Delivered,Delivered,1,DATE_AMBIGUOUS|SENSITIVE_NOTE,Invalid data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+202,EX400851AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DELIVERED_MISSING_FIELD,Missing data|Unknown / needs review,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+203,EX400698AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+204,EX400804AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+205,EX401697AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+206,EX401585AE,Delivered,delivered,3,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|NAME_WHITESPACE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+207,EX401796AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+208,EX400684AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+209,EX400186AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+210,EX401082AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+211,EX401034AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+212,EX400310AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+213,EX400942AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+214,EX401637AE,Returned to Sender,Returned to Sender,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+215,EX401834AE,Failed Delivery,Failed Delivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+216,EX400855AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+217,EX401653AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+218,EX401685AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+219,EX401677AE,Failed Delivery,Failed Delivery,2,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+220,EX400733AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+221,EX401124AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+222,EX401817AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+223,EX401746AE,Failed Delivery,Failed,3,STATUS_FORMAT_VARIANT|MISSING_PHONE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+224,EX400268AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+225,EX400516AE,Delivered,Delivered,1,DATE_NORMALIZED,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+226,EX401547AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+227,EX401588AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+228,EX401671AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+229,EX400764AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+230,EX401874AE,Failed Delivery,Failed Delivery,1,COD_FORMAT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+231,EX401709AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+232,EX401014AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+233,EX400816AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+234,EX400140AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+235,EX401673AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+236,EX402028AE,Delivered,Delivered,2,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+237,EX400375AE,Returned to Sender,Returned to Sender,3,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+238,EX400725AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+239,EX401446AE,Delivered,Delivered,1,COD_FORMAT|SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+240,EX401898AE,Delivered,Delivered,1,DUPLICATE_CONFLICTING|DELIVERED_MISSING_FIELD,Contradictory data|Missing data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+241,EX400742AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+242,EX400163AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+243,EX400442AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+244,EX401500AE,Delivered,Delivered,2,DATE_NORMALIZED|DATE_AMBIGUOUS|SENSITIVE_NOTE,Invalid data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+245,EX400023AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+246,EX402036AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+247,EX401186AE,Delivered,DELIVERED,3,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+248,EX400770AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+249,EX400278AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+250,EX400952AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+251,EX400714AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+252,EX401103AE,Delivered,Delivered,0,REGISTERED_PHONE_NON_MVP_PREFIX|ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+253,EX400926AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+254,EX401990AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+255,EX400618AE,Out for Delivery,Out for Delivery,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+256,EX400197AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+257,EX400951AE,Out for Delivery,Out for Delivery,3,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+258,EX401940AE,Scheduled for Redelivery,Scheduled for Redelivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+259,EX400569AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|COD_FORMAT,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+260,EX400053AE,Delivered,delivered,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+261,EX401388AE,Delivered,Delivered,3,NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+262,EX401437AE,Out for Delivery,Out for Delivery,3,DATE_SEQUENCE|SENSITIVE_NOTE,Contradictory data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+263,EX400864AE,Scheduled for Redelivery,REDELIVERY,2,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+264,EX401107AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+265,EX400227AE,Scheduled for Redelivery,Scheduled for Redelivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+266,EX401630AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+267,EX400706AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+268,EX401287AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+269,EX400080AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+270,EX400044AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+271,EX401979AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+272,EX401800AE,Failed Delivery,Failed Delivery,3,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+273,EX401252AE,Failed Delivery,Failed Delivery,1,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+274,EX400950AE,Failed Delivery,Failed Delivery,3,DATE_NORMALIZED,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+275,EX400379AE,In Transit,In Transit,0,MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE|COD_FORMAT|SENSITIVE_NOTE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+276,EX400460AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+277,EX401972AE,Delivered,delivered_ok,2,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+278,EX400510AE,Delivered,Delivered ,2,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+279,EX400304AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+280,EX401385AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+281,EX401811AE,Returned to Sender,Returned to Sender,1,NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+282,EX401690AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+283,EX400701AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+284,EX401744AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE|DATE_AMBIGUOUS,Invalid data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+285,EX400522AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+286,EX401343AE,Delivered,Delivered,3,DATE_AMBIGUOUS,Invalid data,Has issues,ESCALATED_DATA_REVIEW,INVALID_LAST_ATTEMPT_DATE,False,False,True,False
+287,EX401971AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+288,EX401648AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+289,EX401553AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+290,EX400471AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+291,EX401830AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+292,EX401974AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+293,EX401703AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+294,EX401397AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+295,EX401039AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+296,EX401633AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+297,EX401454AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+298,EX400637AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+299,EX400570AE,Delivered,Delivered ,3,STATUS_FORMAT_VARIANT|COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+300,EX401248AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+301,EX401198AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+302,EX400130AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+303,EX401642AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+304,EX402009AE,Returned to Sender,Returned to Sender,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+305,EX400386AE,Out for Delivery,Out for Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+306,EX400067AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+307,EX400534AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+308,EX401597AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+309,EX400905AE,Failed Delivery,Failed Delivery,3,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+310,EX400670AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+311,EX401003AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+312,EX401984AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+313,EX400739AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+314,EX400999AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+315,EX401401AE,Delivered,delivered_ok,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+316,EX400761AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+317,EX400749AE,Failed Delivery,Failed,1,STATUS_FORMAT_VARIANT|DATE_AMBIGUOUS,Invalid data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+318,EX401213AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+319,EX401844AE,In Transit,IN TRANSIT,0,STATUS_FORMAT_VARIANT|NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+320,EX400975AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+321,EX401171AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+322,EX401781AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+323,EX401914AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+324,EX401244AE,Delivered,Delivered,1,INVALID_WEIGHT,Invalid data,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+325,EX400608AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+326,EX400215AE,Out for Delivery,Out for Delivery,1,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+327,EX401858AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+328,EX401384AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+329,EX400884AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+330,EX401144AE,Returned to Sender,Returned to Sender,3,NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+331,EX402040AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+332,EX400754AE,Scheduled for Redelivery,Re-delivery scheduled,1,STATUS_FORMAT_VARIANT|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+333,EX400003AE,Failed Delivery,Failed Delivery,1,DATE_NORMALIZED,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+334,EX401090AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+335,EX400085AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+336,EX401305AE,Failed Delivery,Undelivered,2,STATUS_UNDELIVERED_MAPPED|DATE_NORMALIZED|DATE_AMBIGUOUS,Invalid data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_LAST_ATTEMPT_DATE,False,False,True,False
+337,EX401066AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+338,EX400650AE,Failed Delivery,Failed Delivery,3,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+339,EX401097AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+340,EX401751AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+341,EX400591AE,Failed Delivery,FAILED_DELIVERY,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+342,EX401963AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT|DELIVERED_MISSING_FIELD|SENSITIVE_NOTE,Missing data|Normal / valid,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+343,EX400922AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+344,EX401980AE,Out for Delivery,Out for Delivery,3,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+345,EX400919AE,Returned to Sender,Returned to Sender,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+346,EX401192AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+347,EX401059AE,Delivered,Delivered,0,DELIVERED_MISSING_FIELD|ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data|Missing data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+348,EX401371AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+349,EX400292AE,Out for Delivery,Out for Delivery,2,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+350,EX401299AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+351,EX401976AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+352,EX400373AE,In Transit,IN TRANSIT,0,STATUS_FORMAT_VARIANT|MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+353,EX400447AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+354,EX400223AE,Delivered,Delivered,1,DATE_AMBIGUOUS,Invalid data,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+355,EX401155AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+356,EX401293AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+357,EX400561AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+358,EX400331AE,Delivered,delivered,3,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+359,EX401150AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+360,EX401044AE,Delivered,DELIVERED,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+361,EX400631AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+362,EX401375AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+363,EX402013AE,Returned to Sender,Returned to Sender,1,DATE_NORMALIZED,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+364,EX400973AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+365,EX401379AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+366,EX401533AE,In Transit,IN TRANSIT,0,STATUS_FORMAT_VARIANT|MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+367,EX400918AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+368,EX400921AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+369,EX400626AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+370,EX400103AE,Failed Delivery,Failed Delivery,3,MISSING_PHONE|SENSITIVE_NOTE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+371,EX400911AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+372,EX400344AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+373,EX401596AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+374,EX401380AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+375,EX401951AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+376,EX400517AE,Scheduled for Redelivery,Scheduled for Redelivery,1,DUPLICATE_CONFLICTING|INVALID_WEIGHT|DATE_SEQUENCE,Contradictory data|Invalid data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+377,EX401841AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+378,EX401282AE,In Transit,In Transit,0,DUPLICATE_CONFLICTING|NO_ATTEMPT_YET_NO_DATE,Contradictory data|Normal / valid,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+379,EX400055AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+380,EX400246AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+381,EX400879AE,In Transit,In Transit,0,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Contradictory data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+382,EX401741AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+383,EX401137AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+384,EX401652AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+385,EX400718AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+386,EX400775AE,Out for Delivery,Out for Delivery,2,MISSING_PHONE,Missing data,Has issues,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+387,EX400779AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+388,EX402023AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+389,EX401259AE,Scheduled for Redelivery,Re-delivery scheduled,1,STATUS_FORMAT_VARIANT|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+390,EX401233AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+391,EX400551AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+392,EX401692AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+393,EX400642AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED|DATE_AMBIGUOUS,Invalid data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_LAST_ATTEMPT_DATE,False,False,True,False
+394,EX401286AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+395,EX401773AE,Delivered,Delivered ,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+396,EX401924AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+397,EX401183AE,Delivered,delivered,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+398,EX402041AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+399,EX400538AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+400,EX401646AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+401,EX401238AE,Out for Delivery,Out for Delivery,2,MISSING_ADDRESS,Missing data,Has issues,INTERNAL_REVIEW,OUT_FOR_DELIVERY_MISSING_ADDRESS,False,False,True,False
+402,EX400784AE,Scheduled for Redelivery,Scheduled for Redelivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+403,EX401506AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+404,EX400372AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+405,EX401898AE,In Transit,In Transit,1,DUPLICATE_CONFLICTING|IN_TRANSIT_WITH_ATTEMPTS|NAME_WHITESPACE,Contradictory data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+406,EX401439AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+407,EX400990AE,Delivered,Delivered,3,SENSITIVE_NOTE|NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+408,EX400273AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+409,EX400867AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+410,EX401705AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+411,EX400040AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+412,EX400945AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+413,EX400528AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+414,EX400603AE,Returned to Sender,Returned to Sender,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+415,EX401769AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+416,EX401639AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+417,EX401301AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+418,EX401328AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+419,EX401539AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+420,EX401141AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT|SENSITIVE_NOTE|NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+421,EX400240AE,Out for Delivery,Out for Delivery,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+422,EX401658AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+423,EX401774AE,Failed Delivery,Failed Delivery,2,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+424,EX401739AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+425,EX400153AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+426,EX400368AE,Delivered,Delivered,3,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+427,EX401019AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+428,EX400354AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+429,EX400438AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+430,EX400491AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+431,EX401627AE,Failed Delivery,Failed Delivery,2,MISSING_PHONE|NAME_WHITESPACE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+432,EX401903AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+433,EX401135AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+434,EX400183AE,Failed Delivery,Failed Delivery,1,DATE_NORMALIZED,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+435,EX400380AE,Failed Delivery,Undelivered,3,STATUS_UNDELIVERED_MAPPED|MISSING_PHONE,Missing data|Unknown / needs review,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,True,True
+436,EX400543AE,Scheduled for Redelivery,Scheduled for Redelivery,2,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+437,EX401001AE,In Transit,In Transit,1,DUPLICATE_CONFLICTING|IN_TRANSIT_WITH_ATTEMPTS,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+438,EX400895AE,Returned to Sender,Returned to Sender,1,NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+439,EX401264AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+440,EX400333AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+441,EX401825AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+442,EX401765AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+443,EX401583AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+444,EX402014AE,Out for Delivery,Out for Delivery,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+445,EX401923AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+446,EX400517AE,Failed Delivery,Failed Delivery,1,DUPLICATE_CONFLICTING|NAME_WHITESPACE,Contradictory data|Normal / valid,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+447,EX401859AE,Out for Delivery,Out for Delivery,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+448,EX400264AE,Failed Delivery,Failed Delivery,2,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+449,EX401094AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD|SENSITIVE_NOTE,Missing data|Normal / valid,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+450,EX401715AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+451,EX401204AE,Returned to Sender,Returned to Sender,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+452,EX400846AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+453,EX400290AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+454,EX401081AE,Scheduled for Redelivery,Scheduled for Redelivery,3,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+455,EX400199AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+456,EX402042AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS|SENSITIVE_NOTE,Contradictory data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+457,EX400532AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+458,EX401028AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_AMBIGUOUS,Invalid data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+459,EX400556AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+460,EX400124AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+461,EX400530AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+462,EX401870AE,Delivered,Delivered,1,NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+463,EX401998AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+464,EX400234AE,Scheduled for Redelivery,Scheduled for Redelivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+465,EX401288AE,Returned to Sender,RTS,2,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+466,EX401987AE,Delivered,Delivered ,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+467,EX401355AE,Delivered,Delivered,2,INVALID_WEIGHT,Invalid data,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+468,EX400727AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+469,EX401711AE,Failed Delivery,failed - customer not available,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+470,EX400013AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+471,EX401961AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+472,EX400898AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+473,EX400661AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+474,EX401523AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+475,EX400284AE,In Transit,Transit,0,STATUS_FORMAT_VARIANT|NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+476,EX400362AE,Returned to Sender,Returned to Sender,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+477,EX400493AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+478,EX400173AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+479,EX401095AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+480,EX400545AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+481,EX400596AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+482,EX400077AE,Failed Delivery,Failed Delivery,3,DATE_NORMALIZED|DATE_AMBIGUOUS,Invalid data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_LAST_ATTEMPT_DATE,False,False,True,False
+483,EX401051AE,Out for Delivery,Out for Delivery,2,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+484,EX401036AE,Failed Delivery,FAILED_DELIVERY,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+485,EX401236AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+486,EX401604AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+487,EX401310AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+488,EX401791AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+489,EX400145AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+490,EX401212AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+491,EX401616AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+492,EX400504AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+493,EX401270AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+494,EX401290AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+495,EX400828AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+496,EX401838AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+497,EX401894AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+498,EX400193AE,In Transit,In Transit,0,MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+499,EX400663AE,Returned to Sender,Returned to Sender,3,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+500,EX401610AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+501,EX401654AE,Delivered,delivered,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+502,EX401560AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+503,EX401647AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+504,EX400061AE,Returned to Sender,Returned to Sender,3,REGISTERED_PHONE_NON_MVP_PREFIX|NAME_WHITESPACE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+505,EX401908AE,Delivered,Delivered,1,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+506,EX400006AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+507,EX401919AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+508,TEST1002,Delivered,Delivered,0,TEST_RECORD,Invalid data,Has issues,BLOCKED_TEST_RECORD,TEST_RECORD,False,False,True,False
+509,EX400289AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+510,EX400753AE,Delivered,Delivered,3,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+511,EX401200AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+512,EX400119AE,Scheduled for Redelivery,Scheduled for Redelivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+513,EX401594AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+514,EX401169AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+515,EX400755AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+516,EX400408AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+517,EX401321AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+518,EX400443AE,Scheduled for Redelivery,Scheduled for Redelivery,1,DATE_NORMALIZED,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+519,EX400506AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+520,EX400927AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+521,EX401581AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+522,EX400548AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+523,EX400228AE,Scheduled for Redelivery,Scheduled for Redelivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+524,EX400133AE,Scheduled for Redelivery,Scheduled for Redelivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+525,EX400203AE,Failed Delivery,Failed Delivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+526,EX401749AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+527,EX400050AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+528,EX401325AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+529,EX401955AE,Failed Delivery,Failed Delivery,3,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+530,EX401206AE,Delivered,Delivered,3,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+531,EX402007AE,In Transit,Transit,0,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+532,EX400463AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|PLACEHOLDER_ADDRESS|NO_ATTEMPT_YET_NO_DATE,Invalid data|Normal / valid|Unknown / needs review,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,address,False,False,False,True
+533,EX400543AE,Failed Delivery,Failed Delivery,2,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX|COD_FORMAT|DATE_NORMALIZED|DATE_AMBIGUOUS,Contradictory data|Invalid data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+534,EX401527AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+535,EX400908AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+536,EX400138AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+537,EX401778AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+538,EX400658AE,Returned to Sender,Returned to Sender,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+539,EX400001AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX|NAME_WHITESPACE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+540,EX401720AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+541,EX401020AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+542,EX401850AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+543,EX400106AE,Failed Delivery,FAILED_DELIVERY,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+544,EX401905AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+545,EX401537AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+546,EX401928AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+547,EX401042AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+548,EX401365AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+549,EX400025AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+550,EX400440AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+551,EX400729AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+552,EX400237AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX|INVALID_WEIGHT,Invalid data|Unknown / needs review,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+553,EX401953AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX|COD_FORMAT|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+554,EX401943AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+555,EX401937AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+556,TEST1006,TEST,TEST,0,TEST_RECORD,Invalid data,Has issues,BLOCKED_TEST_RECORD,TEST_RECORD,False,False,True,False
+557,EX401876AE,Failed Delivery,Failed Delivery,2,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+558,EX400030AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+559,EX401573AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+560,EX401601AE,Delivered,Delivered,1,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+561,EX400473AE,Returned to Sender,Returned to Sender,2,MISSING_PHONE|DATE_NORMALIZED,Missing data|Normal / valid,Has issues,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+562,EX401025AE,In Transit,in-transit,0,STATUS_FORMAT_VARIANT|MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+563,EX401957AE,Returned to Sender,Returned to Sender,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+564,EX401762AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+565,EX400759AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+566,EX401417AE,Delivered,Delivered,3,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+567,EX401011AE,Out for Delivery,Out for Delivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+568,EX400889AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+569,EX401405AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+570,EX401337AE,Returned to Sender,Returned to Sender,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+571,EX401668AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+572,EX400019AE,Out for Delivery,Out for Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+573,EX400882AE,Scheduled for Redelivery,Re-delivery scheduled,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+574,EX400458AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+575,EX401453AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+576,EX401691AE,Delivered,delivered,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+577,EX401395AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+578,EX401695AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+579,EX400981AE,In Transit,in-transit,0,STATUS_FORMAT_VARIANT|NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+580,EX400220AE,Out for Delivery,Out for Delivery,1,DATE_SEQUENCE,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+581,EX400934AE,Failed Delivery,Failed Delivery,2,DATE_NORMALIZED|DATE_AMBIGUOUS|NAME_WHITESPACE,Invalid data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+582,EX401735AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+583,EX400542AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+584,EX400769AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+585,EX400912AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+586,EX400421AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+587,EX400327AE,Delivered,delivered,2,STATUS_FORMAT_VARIANT|DELIVERED_MISSING_FIELD|DATE_SEQUENCE|SENSITIVE_NOTE,Contradictory data|Missing data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+588,EX401753AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+589,EX400994AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+590,EX400668AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+591,EX401726AE,Delivered,Delivered,1,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+592,EX400048AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+593,EX400433AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+594,EX401967AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+595,EX400349AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+596,EX401210AE,Scheduled for Redelivery,REDELIVERY,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+597,EX401099AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+598,EX400807AE,Scheduled for Redelivery,Scheduled for Redelivery,1,MISSING_PHONE|COD_FORMAT,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+599,EX400620AE,Scheduled for Redelivery,Scheduled for Redelivery,2,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+600,EX401359AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+601,EX400481AE,Delivered,Delivered,2,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+602,EX401331AE,Delivered,Delivered,0,REGISTERED_PHONE_NON_MVP_PREFIX|ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+603,EX401319AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+604,EX400903AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+605,EX401272AE,Failed Delivery,Failed Delivery,3,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+606,EX401863AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX|COD_FORMAT,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+607,EX401302AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+608,EX401516AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+609,EX400696AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+610,EX401093AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+611,EX400737AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+612,EX401985AE,Failed Delivery,FAILED_DELIVERY,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+613,EX401182AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+614,EX400852AE,Failed Delivery,Failed,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+615,EX401514AE,Delivered,Delivered,3,DUPLICATE_CONFLICTING|DELIVERED_MISSING_FIELD|DATE_SEQUENCE,Contradictory data|Missing data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+616,EX401868AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+617,EX402008AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+618,EX400254AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+619,EX401661AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+620,EX401085AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+621,EX401404AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+622,EX401536AE,Scheduled for Redelivery,REDELIVERY,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+623,EX401487AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+624,EX400425AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+625,EX400592AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE|SENSITIVE_NOTE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+626,EX401952AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+627,EX400501AE,Returned to Sender,RTS,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+628,EX401447AE,Delivered,Delivered,3,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+629,EX400957AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+630,EX401556AE,Failed Delivery,Undelivered,1,STATUS_UNDELIVERED_MAPPED|MISSING_PHONE,Missing data|Unknown / needs review,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,True,True
+631,EX401087AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+632,EX400112AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+633,EX401243AE,Delivered,Delivered,0,REGISTERED_PHONE_NON_MVP_PREFIX|ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+634,EX401221AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+635,EX402043AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+636,EX400762AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+637,EX401916AE,Scheduled for Redelivery,Scheduled for Redelivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+638,EX400450AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|INVALID_WEIGHT,Invalid data|Unknown / needs review,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+639,EX401488AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+640,EX400285AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+641,EX401351AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+642,EX400810AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+643,EX400640AE,Failed Delivery,Failed Delivery,3,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+644,EX400595AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+645,TEST1004,Delivered,Delivered,0,TEST_RECORD,Invalid data,Has issues,BLOCKED_TEST_RECORD,TEST_RECORD,False,False,True,False
+646,EX401268AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+647,EX401787AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+648,EX402002AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+649,EX400336AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+650,EX401719AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+651,EX401999AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+652,EX401888AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+653,EX401529AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+654,EX401178AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+655,EX400655AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+656,EX400359AE,In Transit,In Transit,0,DUPLICATE_CONFLICTING|NO_ATTEMPT_YET_NO_DATE,Contradictory data|Normal / valid,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+657,EX401613AE,Delivered,Delivered ,1,STATUS_FORMAT_VARIANT|DELIVERED_MISSING_FIELD,Missing data|Normal / valid,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+658,EX401165AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+659,EX401492AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+660,EX401225AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+661,EX401114AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+662,EX401298AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+663,EX400132AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+664,EX401002AE,In Transit,In Transit,2,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX|IN_TRANSIT_WITH_ATTEMPTS,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+665,EX401110AE,In Transit,In Transit,1,DUPLICATE_CONFLICTING|IN_TRANSIT_WITH_ATTEMPTS,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+666,EX400276AE,Failed Delivery,FAILED_DELIVERY,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|DATE_AMBIGUOUS,Invalid data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+667,EX401617AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+668,EX401462AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+669,EX401754AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+670,EX400355AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+671,EX400526AE,Out for Delivery,Out for Delivery,1,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+672,EX400680AE,Delivered,Delivered,1,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+673,EX400251AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+674,EX400798AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+675,TEST1003,TEST,TEST,0,TEST_RECORD,Invalid data,Has issues,BLOCKED_TEST_RECORD,TEST_RECORD,False,False,True,False
+676,EX400894AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+677,EX401994AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+678,EX400578AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+679,EX400890AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE|COD_FORMAT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+680,EX400167AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+681,EX400277AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+682,EX400418AE,Delivered,Delivered,2,NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+683,EX400479AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+684,EX400162AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+685,EX401878AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+686,EX400353AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+687,EX400790AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+688,EX401885AE,Delivered,DELIVERED,0,STATUS_FORMAT_VARIANT|ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS|SENSITIVE_NOTE,Contradictory data|Normal / valid,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+689,EX401336AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+690,EX401656AE,Out for Delivery,Out for Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+691,EX400405AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_AMBIGUOUS,Invalid data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+692,EX401497AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+693,EX401438AE,Failed Delivery,Failed Delivery,3,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+694,EX400009AE,Delivered,Delivered,1,DATE_AMBIGUOUS,Invalid data,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+695,EX401910AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+696,EX401756AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+697,EX401131AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+698,EX400317AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+699,EX401069AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+700,EX401569AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+701,EX400070AE,Delivered,delivered,2,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+702,EX400365AE,Delivered,delivered_ok,3,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+703,TEST1000,TEST,TEST,0,TEST_RECORD,Invalid data,Has issues,BLOCKED_TEST_RECORD,TEST_RECORD,False,False,True,False
+704,EX400958AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+705,EX400633AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+706,EX400995AE,Scheduled for Redelivery,Scheduled for Redelivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+707,EX401590AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+708,EX401279AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+709,EX401674AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+710,EX400381AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+711,EX400802AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+712,EX401195AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+713,EX400692AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+714,EX401063AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+715,EX400332AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+716,EX401001AE,Returned to Sender,Returned to Sender,1,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+717,EX400586AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+718,EX400932AE,Delivered,Delivered,0,ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DATA_REVIEW,CROSS_FIELD_INCONSISTENCY,False,False,True,False
+719,EX401220AE,Delivered,Delivered,3,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+720,EX400267AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+721,EX400574AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+722,EX401755AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+723,EX401829AE,Scheduled for Redelivery,Scheduled for Redelivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+724,EX401126AE,Delivered,delivered_ok,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+725,EX400992AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+726,EX400453AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+727,EX401917AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+728,EX401475AE,Delivered,Delivered,1,COD_FORMAT|NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+729,EX400261AE,Scheduled for Redelivery,Scheduled for Redelivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+730,EX401574AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+731,EX400858AE,Out for Delivery,Out for Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+732,EX401129AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+733,EX400515AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+734,EX401426AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+735,EX400250AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+736,EX401621AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+737,EX400673AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+738,EX401431AE,Failed Delivery,Failed Delivery,3,DUPLICATE_CONFLICTING,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+739,EX400456AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+740,EX400960AE,In Transit,IN TRANSIT,0,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+741,EX400036AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+742,EX400177AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+743,EX400406AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX|INVALID_WEIGHT,Invalid data|Unknown / needs review,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+744,EX400703AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+745,EX401726AE,Returned to Sender,Returned to Sender,1,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+746,EX401483AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT|NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+747,EX400777AE,Failed Delivery,Failed Delivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+748,EX401161AE,Delivered,Delivered ,2,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|COD_FORMAT,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+749,EX401216AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+750,EX400207AE,Out for Delivery,Out for Delivery,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+751,EX400497AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+752,EX401002AE,Delivered,Delivered,2,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+753,EX401252AE,Returned to Sender,Returned to Sender,1,DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+754,EX400614AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+755,EX400366AE,Delivered,Delivered,1,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+756,EX400307AE,Delivered,Delivered,1,INVALID_WEIGHT,Invalid data,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+757,EX400148AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+758,EX400346AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+759,EX401551AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+760,EX401517AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+761,EX401545AE,Failed Delivery,Failed Delivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+762,EX400785AE,In Transit,in-transit,0,STATUS_FORMAT_VARIANT|NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+763,EX400982AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+764,EX401511AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+765,EX400842AE,Delivered,Delivered ,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+766,EX401119AE,Failed Delivery,Failed Delivery,3,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+767,EX400151AE,In Transit,In Transit,0,MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+768,EX401455AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+769,EX400411AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+770,EX400242AE,Delivered,Delivered,2,COD_FORMAT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+771,EX400676AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+772,EX401881AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+773,EX400675AE,Out for Delivery,Out for Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+774,EX400330AE,Delivered,delivered_ok,2,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+775,EX400320AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+776,EX400582AE,Scheduled for Redelivery,Scheduled for Redelivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+777,EX401626AE,Failed Delivery,Failed Delivery,3,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+778,EX401350AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+779,EX401852AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+780,EX401865AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+781,EX401421AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+782,EX400871AE,Out for Delivery,Out for Delivery,1,PLACEHOLDER_ADDRESS,Invalid data,Has issues,INTERNAL_REVIEW,OUT_FOR_DELIVERY_MISSING_ADDRESS,False,False,True,False
+783,EX400074AE,Delivered,DELIVERED,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+784,EX401349AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+785,EX400017AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+786,EX400340AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX|DELIVERED_MISSING_FIELD,Missing data|Unknown / needs review,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+787,EX401073AE,In Transit,In Transit,0,NO_ATTEMPT_YET_NO_DATE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+788,EX401493AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+789,EX400413AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+790,EX400986AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+791,EX400622AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+792,EX400748AE,Out for Delivery,Out for Delivery,1,MISSING_PHONE|SENSITIVE_NOTE,Missing data|Normal / valid,Has issues,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+793,EX400412AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+794,EX402026AE,Failed Delivery,Failed Delivery,2,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+795,EX400620AE,Delivered,delivered,2,STATUS_FORMAT_VARIANT|DUPLICATE_CONFLICTING|REGISTERED_PHONE_NON_MVP_PREFIX,Contradictory data|Normal / valid|Unknown / needs review,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+796,EX401890AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+797,EX400489AE,Failed Delivery,Failed Delivery,3,PLACEHOLDER_ADDRESS,Invalid data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,address,False,False,False,True
+798,EX401578AE,Delivered,delivered_ok,1,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|DATE_NORMALIZED|NAME_WHITESPACE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+799,EX400524AE,Scheduled for Redelivery,Scheduled for Redelivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+800,EX401740AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+801,EX400721AE,Delivered,Delivered,3,DELIVERED_MISSING_FIELD,Missing data,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+802,EX401406AE,Delivered,Delivered,1,DATE_NORMALIZED,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+803,EX401391AE,Delivered,delivered,3,STATUS_FORMAT_VARIANT|REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+804,EX401273AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+805,EX401459AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+806,EX401008AE,Scheduled for Redelivery,Scheduled for Redelivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+807,EX401983AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+808,EX400089AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+809,EX401712AE,Delivered,Delivered,1,DATE_AMBIGUOUS,Invalid data,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+810,EX401795AE,Delivered,Delivered,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+811,EX400827AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+812,EX400720AE,Returned to Sender,Return to sender,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+813,EX400848AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+814,EX400565AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+815,EX401826AE,Failed Delivery,Failed Delivery,3,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+816,EX401564AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+817,EX400295AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+818,EX400155AE,Delivered,Delivered,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+819,EX400861AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+820,EX400835AE,Delivered,Delivered,2,SENSITIVE_NOTE|NAME_WHITESPACE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+821,EX401643AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+822,EX400938AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+823,EX400390AE,Failed Delivery,Failed Delivery,2,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+824,EX400109AE,Returned to Sender,Returned to Sender,3,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_SEQUENCE,Contradictory data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_TIMELINE,False,False,True,False
+825,EX400179AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DELIVERED_MISSING_FIELD,Missing data|Unknown / needs review,Has issues,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+826,EX400901AE,Failed Delivery,Failed Delivery,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+827,EX400619AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+828,EX400419AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+829,EX400016AE,In Transit,In Transit,0,MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE|COD_FORMAT,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+830,EX402033AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE|SENSITIVE_NOTE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+831,EX400518AE,Delivered,Delivered,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+832,EX400623AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+833,EX400485AE,Scheduled for Redelivery,Scheduled for Redelivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+834,EX400875AE,Returned to Sender,Returned to Sender,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+835,EX400400AE,Failed Delivery,Failed Delivery,3,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+836,EX400434AE,In Transit,In Transit,0,MISSING_PHONE|NO_ATTEMPT_YET_NO_DATE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+837,EX400563AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+838,EX401469AE,Delivered,delivered,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+839,EX400090AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX|DATE_AMBIGUOUS,Invalid data|Unknown / needs review,Has issues,ESCALATED_DATA_REVIEW,INVALID_LAST_ATTEMPT_DATE,False,False,True,False
+840,EX401442AE,Failed Delivery,failed - customer not available,2,STATUS_FORMAT_VARIANT|MISSING_PHONE|INVALID_WEIGHT,Invalid data|Missing data|Normal / valid,Has issues,INTERNAL_REVIEW,INVALID_WEIGHT,False,False,True,False
+841,EX401363AE,Failed Delivery,failed - customer not available,1,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+842,EX400652AE,Returned to Sender,Returned to Sender,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+843,EX400709AE,Failed Delivery,Failed,1,STATUS_FORMAT_VARIANT|MISSING_PHONE,Missing data|Normal / valid,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+844,EX400088AE,Scheduled for Redelivery,Scheduled for Redelivery,2,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+845,EX401565AE,Failed Delivery,Failed Delivery,1,,Normal / valid,Normal / valid,ELIGIBLE,OK,False,False,False,False
+846,EX400599AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+847,EX402031AE,Returned to Sender,Returned to Sender,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+848,EX400758AE,Failed Delivery,Failed Delivery,3,DATE_AMBIGUOUS,Invalid data,Has issues,ESCALATED_DATA_REVIEW,INVALID_SHIPMENT_DATE,False,False,True,False
+849,EX400359AE,Delivered,Delivered,0,DUPLICATE_CONFLICTING|ZERO_ATTEMPTS_WITH_ATTEMPT_DATE|DELIVERED_ZERO_ATTEMPTS,Contradictory data,Has issues,ESCALATED_DUPLICATE,DUPLICATE_RECORDS,False,False,True,False
+850,EX401948AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+851,EX400929AE,Delivered,Delivered,2,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+852,EX400213AE,Failed Delivery,Failed Delivery,3,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+853,EX401934AE,Failed Delivery,Failed Delivery,1,MISSING_PHONE,Missing data,Has issues,ELIGIBLE_NEEDS_CUSTOMER_INPUT,phone,False,False,False,True
+854,EX400467AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+855,EX400415AE,Out for Delivery,Out for Delivery,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+856,EX400128AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+857,EX401504AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+858,EX400429AE,Returned to Sender,Returned to Sender,1,REGISTERED_PHONE_NON_MVP_PREFIX|NAME_WHITESPACE,Normal / valid|Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,RETURNED_TO_SENDER,False,False,False,False
+859,EX401423AE,Failed Delivery,Failed Delivery,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+860,EX400271AE,Delivered,Delivered,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+861,EX401786AE,Delivered,DELIVERED,2,STATUS_FORMAT_VARIANT,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+862,EX401672AE,Delivered,Delivered,1,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+863,EX400024AE,Out for Delivery,Out for Delivery,2,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+864,EX401368AE,Delivered,Delivered,1,REGISTERED_PHONE_NON_MVP_PREFIX,Unknown / needs review,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
+865,EX400122AE,Out for Delivery,Out for Delivery,3,,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,OUT_FOR_DELIVERY,False,False,False,False
+866,EX400422AE,In Transit,In Transit,0,REGISTERED_PHONE_NON_MVP_PREFIX|NO_ATTEMPT_YET_NO_DATE,Normal / valid|Unknown / needs review,Normal / valid,ELIGIBLE,OK,False,False,False,False
+867,EX400057AE,Delivered,Delivered,1,SENSITIVE_NOTE,Normal / valid,Normal / valid,BLOCKED_BY_STATUS,ALREADY_DELIVERED,False,False,False,False
